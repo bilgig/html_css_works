@@ -1,0 +1,33 @@
+body{
+    background-size: 100%;
+}
+#left-field{
+    width: 30%;
+    height:1300px;
+    background-color: rgb(196, 234, 247); 
+    float: left;
+}
+ #right-field{
+    width: 70%;
+    height:1300px;
+    float:right;
+
+}
+#foto{
+    border-radius:50%; 
+    width: 200px; 
+    height: 270px;
+    margin-left: 20%; 
+    margin-top: 2%;
+}
+
+#titles{
+    list-style-type:square; 
+    background-color:#BBCCEA;
+}
+.line{
+    width: 80%;
+    height: 2px;
+    background-color: #000; 
+    margin: 10px 0; 
+}
