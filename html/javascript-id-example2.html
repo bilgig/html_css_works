@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML JavaScript Page</title>
+        <style>
+    #demo{
+        background-color: greenyellow;
+    }
+        </style>
+
+    </head>
+    <body>
+       <h1>My First JavaScript</h1> 
+       <p>JavaScript can change the content of an HTML element: </p>
+       <button type="button" onclick="myFunction()">Click me!</button>
+       <p id="demo">This is a demostration</p>
+       <button type="buton" onclick="rollbackFunction()">Rollback!</button>
+
+       <script>
+        function myFunction(){
+            document.getElementById('demo').innerHTML="Hello Java Script!";
+        }
+
+        function rollbackFunction(){
+document.getElementById("demo").innerHTML="This is a demonstration."
+
+        }
+       </script>
+
+    </body>
+
+</html>
