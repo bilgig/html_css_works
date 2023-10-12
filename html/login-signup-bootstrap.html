@@ -41,7 +41,7 @@ margin-top: -10px;
 }
 .width-div{
   padding-top: 1%;
-  width: 60%;
+  width: 70%;
   margin:auto;
   
 }
@@ -49,8 +49,14 @@ margin-top: -10px;
   margin-bottom: 10px;
 }
 .button-style{
-  width: 150px;
+  width: 100px;
   height: 35px;
+  background-color: #50A351;
+  border-color: #50A351;
+}
+.button-style:hover {
+  background-color:#50A351;
+  border-color: #50A351;
 }
 .button-right{
   float: right;
@@ -88,7 +94,7 @@ margin-top: -10px;
     </div>
     <div class="row">
       <div class="login-text">
-        Login
+        Sign up
         <hr style="height:2px;border-width:0;color:gray;background-color:gray;padding-bottom: -50px; ">
       </div>
     </div>
@@ -96,22 +102,30 @@ margin-top: -10px;
     <div class="row">
       <div class="width-div">
         <form>
-          <div class="form-group row form-style">
-            <label for="inputEmail3" class="col-sm-2 col-form-label">Username</label>
-            <div class="col-sm-10">
-              <input type="email" class="form-control" id="inputEmail3" placeholder="Username">
+          <div class="container-fluid">
+            <div class="form-group row form-style">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Username</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Username">
+              </div>
             </div>
-          </div>
-          <div class="form-group row form-style">
-            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
-            <div class="col-sm-10">
-              <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+            <div class="form-group row form-style">
+              <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+              </div>
             </div>
-          </div>
+            <div class="form-group row form-style">
+              <label for="inputPassword3" class="col-sm-2 col-form-label">Confirm Password</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+              </div>
+            </div>
             <div class="col-sm-10 button-right">
-              <button type="button" class="btn btn-primary btn-sm button-style form-control"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
-                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
-              </svg>Login</button>
+              <button type="button" class="btn btn-primary btn-sm button-style form-control"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-plus-fill" viewBox="0 0 16 16">
+                <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                <path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"/>
+              </svg> Signup</button>
             
           </div>
         </form>
